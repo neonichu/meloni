@@ -1,0 +1,27 @@
+meloni
+======
+
+This project aims to use cucumber for testing iOS applications. While there
+is prior work which does that (iCuke), meloni wants to stay clean off 
+modifying the application, it aims to use plain UIAutomation and Instruments
+for test execution. To achieve that, it automatically generates JavaScript
+code for running the tests.
+
+Examples:
+
+Look in the directory named thusly. The tests are for 
+PlainNote (https://github.com/vkoser/PlainNote).
+
+Licensing:
+
+BSD.
+
+Notes:
+
+* cucumber is required (gem install gherkin cucumber)
+* currently, meloni is limited to generating scripts, it cannot execute
+	the tests automatically
+* some UIAutomation methods are not yet implemented
+
+--
+Boris Buegling <boris@icculus.org>
